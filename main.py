@@ -47,7 +47,7 @@ cpimg = "https://graph.org/file/5ed50675df0faf833efef-e102210eb72c1d5a17.jpg"
 
 
 async def show_random_emojis(message):
-    emojis = ['🎊', '🔮', '😎', '⚡️', '🚀', '✨', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🐅','🦁']
+    emojis = ['✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️', '✈️','✈️','✈️']
     emoji_message = await message.reply_text(' '.join(random.choices(emojis, k=1)))
     return emoji_message
     
@@ -55,7 +55,7 @@ async def show_random_emojis(message):
 OWNER_ID = 5840594311 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [5840594311,7856557198,6303334633]
+SUDO_USERS = [5840594311,7677793053,6303334633]
 
 AUTH_CHANNEL = -1002572301679
 
